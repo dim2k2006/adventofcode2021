@@ -22,8 +22,8 @@ test('Returns 15 as horizontal position and 10 as depth.', () => {
   const result = horizontalPosition * depth;
 
   expect(horizontalPosition).toBe(15);
-  expect(depth).toBe(10);
-  expect(result).toBe(150);
+  expect(depth).toBe(60);
+  expect(result).toBe(900);
 });
 
 test('Returns 2050 as horizontal position and 826 as depth.', () => {
@@ -39,5 +39,5 @@ test('Returns 2050 as horizontal position and 826 as depth.', () => {
 
   const result = horizontalPosition * depth;
 
-  expect(result).toBe(1693300);
+  expect(result).toBe(1857958050);
 });
